@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.set_page_config(page_title="Property Market Analysis", layout="wide")
-st.title("🏡 Property Market Analysis Dashboard")
+st.title(Property Market Analysis Dashboard)
 
 # Load data
 df = pd.read_excel('Suburb Excel and Radar January 2025.xlsx', sheet_name='SA3')
